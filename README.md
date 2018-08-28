@@ -29,9 +29,9 @@ the arguments can come in any order but the time interval should go with the '-d
 	When a valid input is right, the information is saved in the structs: timeDeatils (contains information for -d) and address (contains login information).
 
 ## aditional functions
-	* checkArgument: Check the integrity of the input in argv[i]
-	* checkUrl: Check the integrity of the URL input and create a struct with the URL details
-	* checkTime: Check the integrity of the time input and create a struct with the time details
-	* createMessage: Create a message with the login information written to the server via socket
-	* createSocket: Create socket and connecting to the server
-	* destroy: Destroys - deallocating memory
+* checkArgument: Check the integrity of the input in argv[i]
+* checkUrl: Check the integrity of the URL input and create a struct with the URL details
+* checkTime: Check the integrity of the time input and create a struct with the time details
+* createMessage: Create a message with the login information written to the server via socket
+* createSocket: Create socket and connecting to the server
+* destroy: Destroys - deallocating memory
