@@ -28,7 +28,7 @@ the arguments can come in any order but the time interval should go with the '-d
 	The goal is to create a message from the received arguments, connect to an HTTP server, and receive a HTML code of the requested site.
 	When a valid input is right, the information is saved in the structs: timeDeatils (contains information for -d) and address (contains login information).
 
-## aditional functions
+## additional functions
 * checkArgument: Check the integrity of the input in argv[i]
 * checkUrl: Check the integrity of the URL input and create a struct with the URL details
 * checkTime: Check the integrity of the time input and create a struct with the time details
